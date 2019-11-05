@@ -1,0 +1,28 @@
+Installing docker compose :
+sudo apt-get install docker-compose
+
+Build docker :
+docker-compose -f graph.xml build
+
+Execute docker :
+docker exec container_name
+
+Run docker container :
+sudo docker-compose -f <yml> up
+
+Start docker service : 
+sudo service docker start
+
+List containers :
+sudo docker ps -a
+
+Restart docker container :
+sudo docker restart <name>
+
+
+Delete docker :
+docker system prune
+
+Executing a docker  conatiner and enter bash :
+sudo docker exec mongodb -d /bin/bash
+
